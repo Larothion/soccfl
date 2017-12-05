@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>StreamFluence Costs</title>
+	<title>StreamFluence</title>
     <!-- bootstap html and cc elemets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--links my css page -->
@@ -14,6 +14,8 @@
     <!-- Allows me to use Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
 
 </head>
 <body>
@@ -34,12 +36,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="brands.html">Brands</a></li>
-          <li><a href="benefits.html">Benefits</a></li>
-          <li><a href="index.html">How it Works</a></li>
-          <li><a href="cost.html">Cost</a></li>
-          <li><a href="casestudy.html" >Case Study</a></li>
-          <li><a style="margin-right: 15px;" href="getstarted.html" >Get Started</a></li>
+          <li><a class="navFont" href="brands.html">Brands</a></li>
+          <li><a class="navFont" href="benefits.html">Benefits</a></li>
+          <li><a class="navFont" href="index.html">How it Works</a></li>
+          <li><a class="navFont" href="cost.html">Cost</a></li>
+          <li><a class="navFont" href="casestudy.html" >Case Study</a></li>
+          <li><a class="navFont" style="margin-right: 15px;" href="getstarted.html" >Get Started</a>
         </ul>
       </div><!-- /.navbar-collapse -->
     
@@ -59,7 +61,7 @@
 
             <br>
 
-            <h6 id="costSchedule">Schedule a call <a href="">HERE</a> for expert help</h6>
+            <p id="costSchedule">Schedule a call <a href="">HERE</a> for expert help</p>
 
         </div>
         <div class="col-md-6">
@@ -98,25 +100,28 @@
 
 <div id="footer">
     <div class="container">
-        <div class="row"> 
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Get Started In Minutes</h2>
+          </div>
+        </div>
+        <div class="row" id="bone">
             <br>
               <div class="col-md-6">
                 <center>
                   <br>
-                  <h3 class="footertext">Get Started In Minutes</h3>
+                  
                   <h4>Creating an account is free</h4>
                   <p>You can sign up and make a campaign without putting in any payment information. Find out  how StreamFluence can help you get noticed.</p>
-                  <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address">
-                  <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal">Submit</button>
+                  <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="submitButton">Get Started</button>
                 </center>
               </div>
               <div class="col-md-6">
                 <center>
                   <br>
-                  <h3 class="footertext">Engage Your Audience On Their Terms</h3>
-                  <h4>Simple. Easy. Effective.</h2>
-                  <p class="footertext">We will walk you through creating an account and starting a campaign. Our experts are here to help, schedule a call today.<br></p>
-                  <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal">Schedule a Call</button>
+                  <h4>Simple. Easy. Effective.</h4>
+                  <p>We will walk you through creating an account and starting a campaign. Our experts are here to help, schedule a call today.<br></p>
+                  <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="scheduleButton">Schedule a Call</button>
                 </center>
               </div>
         </div>
