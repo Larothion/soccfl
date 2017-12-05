@@ -225,14 +225,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
 #footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   border-top: 1px solid #4d98d3;
   /* Set the fixed height of the footer here */
