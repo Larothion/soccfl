@@ -459,6 +459,10 @@ hr{
 }
 #righty{
   padding-right: 0;
+  background-image: url("../images/homestreamer.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #setMarginTop{
@@ -499,11 +503,17 @@ hr{
   height: 750px;
   padding-top: 250px;
   text-align: center;
-  background-color: rgba(41, 41, 61, .2);
+  /*background-color: rgba(41, 41, 61, .2);*/
   border-right: 1px solid #6441a4;
 }
+.rightStreamer h1{
+  font-size: 70px;
+}
 .rightStreamer:hover {
-  background-color: rgb(100, 65, 164);
+  background-color: rgba(100, 65, 164, .8 );
+}
+.rightStreamer:hover .textBox{
+  
 }
 .rightStreamer #hideRight{
   display: none;
@@ -521,7 +531,18 @@ hr{
 .rightStreamer:hover h1{
   color: white;
 }
-
+.textBox{
+  margin-left: 45px;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.textBox h1{
+}
+.textBox p{
+  font-weight: bold;
+}
 #landingHR{
   width:100%;
     top:-35px;
