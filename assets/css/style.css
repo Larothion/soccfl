@@ -92,6 +92,10 @@ p{
   font-weight: 500;
   color: #003D87 !important;
 }
+.navFont:hover {
+  background-color: rgb(100, 65, 164) !important;
+  color: white !important;
+}
 #container1 {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -228,13 +232,7 @@ h3 {
 	margin-left: 113px;
 }
 
-#glyph {
-	padding-right: 9px;
-}
 
-.glyphicon {
-    margin-left: 18px;
-}
 hr{
     /*display: block;
     height: 1px;
@@ -285,12 +283,22 @@ hr{
 
 /*Footer*/
 
+.copyright{
+  background-color: #444444;
+  color: white;
+  height: 50px;
+}
+.copyrighttext{
+  color: white;
+  padding-top: 15px;
+}
 html {
   position: relative;
   min-height: 100%;
 }
 #footer {
   width: 100%;
+  padding-bottom: 5px;
   border-top: 1px solid #4d98d3;
   /* Set the fixed height of the footer here */
   /*height: 318px;*/
@@ -314,7 +322,7 @@ html {
 }
 h3{
   font-family: 'Roboto', sans-serif;
-  font-size: 33px;
+  font-size: 24px;
   line-height: 1.29;
   color: #003D87;
 }
