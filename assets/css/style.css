@@ -91,6 +91,7 @@ p{
 .navFont{
   font-weight: 500;
   color: #003D87 !important;
+  cursor:pointer;
 }
 .navFont:hover {
   background-color: rgb(100, 65, 164) !important;
