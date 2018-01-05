@@ -648,11 +648,11 @@ hr{
     #righty {
         width: 800px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 25px;
     }
     #lefty {
         width: 800px;
-        margin-left: auto;
+        margin-left: 25px;
         margin-right: auto;
     }
 }
