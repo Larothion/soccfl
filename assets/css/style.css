@@ -27,7 +27,7 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-}
+
 p, h3 {
 	font-family: 'Raleway', sans-serif;
   color: ;
@@ -67,6 +67,7 @@ p{
   width: 100%;
   opacity: 0.8;
   z-index: 1030;
+  padding-right: 250px;
 }
 #navBrands{
   position: fixed;
@@ -100,6 +101,7 @@ p{
   font-weight: 500;
   color: black !important;
   font-weight: bold;
+  margin-right: 30px;
 }
 .navFont:hover {
   background-color: #6aa232 !important;
@@ -173,6 +175,10 @@ p{
 
 .missionStatement {
   font-size: 25px;
+}
+
+.boxShadowClass {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .missionStatementTitle {
