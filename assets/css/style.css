@@ -54,6 +54,11 @@ p{
 	margin: 4px;
 }
 
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+
 #navCost{
   position: fixed;
   top: 0;
